@@ -12,10 +12,10 @@
 
 let
   pname = "jcode";
-  version = "0.31.2";
-  srcHash = "sha256-Yt/SkBSdKQyd7hLkneAyF8yTjVMhEWP9JJEyXBmosVg=";
-  buildCommit = "446be1d35937afddadb3d6939ff53f5708df3fa0";
-  buildGitDate = "2026-06-21 14:03:01 -0700";
+  version = "0.32.0";
+  srcHash = "sha256-Q2x4L1mk6RQuP0tMCXFJLGTGSLJm6Q6Wl7KJX7/JqRw=";
+  buildCommit = "f31edd04debdd7c79703888b9b157bc4a4f079e0";
+  buildGitDate = "2026-06-28 15:02:57 -0700";
 in
 
 rustPlatform.buildRustPackage {
@@ -28,7 +28,7 @@ rustPlatform.buildRustPackage {
     hash = srcHash;
   };
 
-  cargoHash = "sha256-d5y5oef2+VfjYGZnmPB/NZDpUQBkFLiSidA24D7OL9w=";
+  cargoHash = "sha256-vPITUtcGcx3eKZctrlR+bfM9Cs2rIySZ6g+hPPGQbi8=";
 
   cargoBuildFlags = [
     "--bin"
